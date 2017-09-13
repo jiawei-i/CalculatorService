@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true"> <!-- 按钮按下状态  -->
+        <shape >
+           <gradient android:startColor="#eeeeee"
+               android:endColor="#eeeeee"/>
+        </shape>
+    </item>
+
+    <item android:state_focused="true"> <!-- 按钮获取焦点的状态 --> 
+        <shape >
+            <gradient 
+                android:startColor="#eeeeee"
+                android:endColor="#eeeeee"
+                />
+        </shape>
+    </item>
+    
+    <item>                           <!-- 按钮默认的状态 -->
+        <shape >
+            <gradient android:startColor="#ffffff"
+                android:endColor="#ffffff"/>
+        </shape>
+    </item>
+</selector>
